@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Response";
+}
+<h2>Response</h2>
+@if (ViewBag.Error == true){
+     <p>Error</p>
+}
+
+else
+{
+
+    <div class="form-group">
+        <label for="comment">Tweet:</label>
+        <textarea readonly class="form-control" rows="5" id="comment">@ViewBag.Tweet</textarea>
+    </div>
+   
+
+    <div>
+    <h4>   Sentiment Analysis Response:<.br><pre> @ViewBag.Response </pre></h4>
+        </div>
+}
+

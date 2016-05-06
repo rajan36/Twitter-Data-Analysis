@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title= "Home - Twitter Sentiment Data Analysis";
+}
+
+    <h2 >Twitter Sentiment Analysis</h2>
+    <p class="lead">Enter Any Query For Sentiment Analysis</pclass="lead"><br>
+
+        @using (Html.BeginForm("Welcome", "Query", FormMethod.Post))
+        {
+
+            
+            <div class="form-group">
+                <label for="inputlg">Enter Tweets:</label>
+                <textarea name="lname" class="form-control" rows="5" id="comment"></textarea>
+                <br>
+                <input type="submit" value="Submit" class="btn btn-primary">
+              
+            </div>
+            
+
+            
+        }
+    
