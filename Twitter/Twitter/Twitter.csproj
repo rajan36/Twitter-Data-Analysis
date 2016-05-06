@@ -230,6 +230,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="App_Data\Report.pdf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -242,29 +243,6 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Views\Query\css\bootstrap.css" />
-    <Content Include="Views\Query\css\bootstrap.min.css" />
-    <Content Include="Views\Query\css\freelancer.css" />
-    <Content Include="Views\Query\font-awesome\css\font-awesome.css" />
-    <Content Include="Views\Query\font-awesome\css\font-awesome.min.css" />
-    <Content Include="Views\Query\font-awesome\fonts\fontawesome-webfont.svg" />
-    <Content Include="Views\Query\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Views\Query\img\portfolio\cabin.png" />
-    <Content Include="Views\Query\img\portfolio\cake.png" />
-    <Content Include="Views\Query\img\portfolio\circus.png" />
-    <Content Include="Views\Query\img\portfolio\game.png" />
-    <Content Include="Views\Query\img\portfolio\safe.png" />
-    <Content Include="Views\Query\img\portfolio\submarine.png" />
-    <Content Include="Views\Query\img\profile.png" />
-    <Content Include="Views\Query\js\bootstrap.js" />
-    <Content Include="Views\Query\js\bootstrap.min.js" />
-    <Content Include="Views\Query\js\cbpAnimatedHeader.js" />
-    <Content Include="Views\Query\js\cbpAnimatedHeader.min.js" />
-    <Content Include="Views\Query\js\classie.js" />
-    <Content Include="Views\Query\js\contact_me.js" />
-    <Content Include="Views\Query\js\freelancer.js" />
-    <Content Include="Views\Query\js\jqBootstrapValidation.js" />
-    <Content Include="Views\Query\js\jquery.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -302,50 +280,10 @@
     <Content Include="Service References\Application Insights\ConnectedService.json" />
     <Content Include="Views\Query\Index.cshtml" />
     <Content Include="Views\Query\Welcome.cshtml" />
-    <Content Include="Views\Query\font-awesome\fonts\fontawesome-webfont.eot" />
-    <Content Include="Views\Query\font-awesome\fonts\fontawesome-webfont.ttf" />
-    <Content Include="Views\Query\font-awesome\fonts\fontawesome-webfont.woff" />
-    <Content Include="Views\Query\font-awesome\fonts\FontAwesome.otf" />
-    <Content Include="Views\Query\font-awesome\less\bordered-pulled.less" />
-    <Content Include="Views\Query\font-awesome\less\core.less" />
-    <Content Include="Views\Query\font-awesome\less\fixed-width.less" />
-    <Content Include="Views\Query\font-awesome\less\font-awesome.less" />
-    <Content Include="Views\Query\font-awesome\less\icons.less" />
-    <Content Include="Views\Query\font-awesome\less\larger.less" />
-    <Content Include="Views\Query\font-awesome\less\list.less" />
-    <Content Include="Views\Query\font-awesome\less\mixins.less" />
-    <Content Include="Views\Query\font-awesome\less\path.less" />
-    <Content Include="Views\Query\font-awesome\less\rotated-flipped.less" />
-    <Content Include="Views\Query\font-awesome\less\spinning.less" />
-    <Content Include="Views\Query\font-awesome\less\stacked.less" />
-    <Content Include="Views\Query\font-awesome\less\variables.less" />
-    <Content Include="Views\Query\font-awesome\scss\font-awesome.scss" />
-    <Content Include="Views\Query\font-awesome\scss\_bordered-pulled.scss" />
-    <Content Include="Views\Query\font-awesome\scss\_core.scss" />
-    <Content Include="Views\Query\font-awesome\scss\_fixed-width.scss" />
-    <Content Include="Views\Query\font-awesome\scss\_icons.scss" />
-    <Content Include="Views\Query\font-awesome\scss\_larger.scss" />
-    <Content Include="Views\Query\font-awesome\scss\_list.scss" />
-    <Content Include="Views\Query\font-awesome\scss\_mixins.scss" />
-    <Content Include="Views\Query\font-awesome\scss\_path.scss" />
-    <Content Include="Views\Query\font-awesome\scss\_rotated-flipped.scss" />
-    <Content Include="Views\Query\font-awesome\scss\_spinning.scss" />
-    <Content Include="Views\Query\font-awesome\scss\_stacked.scss" />
-    <Content Include="Views\Query\font-awesome\scss\_variables.scss" />
-    <Content Include="Views\Query\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Views\Query\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Views\Query\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Views\Query\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="Views\Query\less\freelancer.less" />
-    <Content Include="Views\Query\less\mixins.less" />
-    <Content Include="Views\Query\less\variables.less" />
-    <Content Include="Views\Query\mail\contact_me.php" />
     <Content Include="Views\Query\_LayoutPage1.cshtml" />
     <Content Include="Views\Query\About.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
