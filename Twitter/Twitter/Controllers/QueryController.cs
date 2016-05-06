@@ -9,6 +9,8 @@ using System.Web.Mvc;
 using Newtonsoft.Json;
 using System.Web.Script.Serialization;
 using Twitter.Models;
+using System.IO;
+
 namespace Twitter.Controllers
 {
     public class StringTable
@@ -54,6 +56,15 @@ namespace Twitter.Controllers
             ViewBag.Message = "This is About Artificial Intelligence Cource Project, Twitter Sentiment Data Analysis";
 
             return View();
+        }
+        public ActionResult GetPdf()
+        {
+            var fileStream = new FileStream("~/Content/files/Report.pdf" ,
+                                             FileMode.Open,
+                                             FileAccess.Read
+                                           );
+            var fsResult = new FileStreamResult(fileStream, "application/pdf");
+            return fsResult;
         }
         async Task<string> InvokeRequestResponseService(string tweet)
         {
